@@ -3,7 +3,7 @@
     <nav class="w-full h-auto"></nav>
     <div class="main-content flex-21 container mx-auto">
       <div class="flex flex-wrap">
-        <div class="w-full md:w-1/1 lg:1/1 xl:w-1/2 p-6" v-for="n in 3" :key="n">
+        <div class="w-full md:w-full lg:w-full xl:w-1/2 px-6" v-for="n in 3" :key="n">
           <component-a :key="n"></component-a>
         </div>
       </div>
